@@ -1,0 +1,4 @@
+#.gitgnore
+*~
+.venv
+node_modules
