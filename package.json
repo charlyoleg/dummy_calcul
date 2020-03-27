@@ -4,6 +4,7 @@
   "description": "tiny library for learning npm package ts-written for use in nodejs or browser",
   "main": "dist/index.js",
   "scripts": {
+    "build": "tsc",
     "test": "jest"
   },
   "repository": {
