@@ -7,6 +7,14 @@ The repository *dummy_calcul* is for learning and experimenting a TS-written NPM
 
 The goal of this library is to learn publishing a npm-package for nodejs and browser.
 
+
+### Project links
+
+- [github](https://github.com/charlyoleg/dummy_calcul)
+- [npm](https://www.npmjs.com/package/dummy-calcul)
+- [unpkg](https://unpkg.com/browse/dummy-calcul@1.2.1/)
+
+
 ## Getting started
 
 ### for NodeJS
