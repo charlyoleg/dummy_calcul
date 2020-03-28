@@ -4,8 +4,11 @@
   "description": "tiny library for learning npm package ts-written for use in nodejs or browser",
   "main": "dist/index.js",
   "scripts": {
+    "clean": "rm -fr dist",
     "build": "tsc",
-    "test": "jest"
+    "test-src": "jest",
+    "test-build": "node scr/test_build.js",
+    "test": "run-s test-src build test-build"
   },
   "repository": {
     "type": "git",
