@@ -13,6 +13,8 @@
     "rollup": "rollup -c",
     "test-src": "jest",
     "test-build": "node scr/test_build.js",
+    "test-local-bundle": "sensible-browser scr/test_local_rollup_bundle.html",
+    "test-unpkg-bundle": "sensible-browser scr/test_unpkg_rollup_bundle.html",
     "test": "run-s test-src build test-build"
   },
   "repository": {
