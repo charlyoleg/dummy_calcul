@@ -1,6 +1,6 @@
 {
   "name": "dummy-calcul",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "tiny library for learning npm package ts-written for use in nodejs or browser",
   "main": "dist/index.js",
   "browser": "dist/dummy-calcul.min.js",
