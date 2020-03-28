@@ -3,12 +3,14 @@
   "version": "1.0.0",
   "description": "tiny library for learning npm package ts-written for use in nodejs or browser",
   "main": "dist/index.js",
+  "browser": "dist/dummy-calcul.min.js",
   "files": [
     "dist"
   ],
   "scripts": {
     "clean": "rm -fr dist",
     "build": "tsc --declaration",
+    "rollup": "rollup -c",
     "test-src": "jest",
     "test-build": "node scr/test_build.js",
     "test": "run-s test-src build test-build"
