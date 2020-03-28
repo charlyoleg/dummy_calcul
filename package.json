@@ -11,11 +11,12 @@
     "clean": "rm -fr dist",
     "build": "tsc --declaration",
     "rollup": "rollup -c",
+    "prepublishOnly": "run-s clean build rollup test",
     "test-src": "jest",
     "test-build": "node scr/test_build.js",
     "test-local-bundle": "sensible-browser scr/test_local_rollup_bundle.html",
     "test-unpkg-bundle": "sensible-browser scr/test_unpkg_rollup_bundle.html",
-    "test": "run-s test-src build test-build"
+    "test": "run-s test-src test-build"
   },
   "repository": {
     "type": "git",
