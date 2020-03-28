@@ -1,4 +1,5 @@
 #.gitgnore
 *~
-.venv
-node_modules
+.venv/
+node_modules/
+dist/
