@@ -25,6 +25,28 @@ In a nodejs-script:
     console.log(result);
 
 
+### for NodeJS with TypeScript
+
+In a bash-terminal:
+
+    mkdir test
+    cd test
+    npm i dummy-calcul typescript
+
+
+In a ts-script, called *abc.ts*:
+
+    import { add1000, mult1000 } from "dummy-calcul";
+    console.log(add1000(5));
+    console.log(mult1000(7));
+
+
+In a bash-terminal:
+
+    npx tsc abc.ts
+    node abc.js
+
+
 ### for browser
 
 In your html-file:
