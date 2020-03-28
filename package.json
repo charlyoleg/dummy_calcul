@@ -6,7 +6,7 @@
   "files": ["dist"],
   "scripts": {
     "clean": "rm -fr dist",
-    "build": "tsc",
+    "build": "tsc --declaration",
     "test-src": "jest",
     "test-build": "node scr/test_build.js",
     "test": "run-s test-src build test-build"
