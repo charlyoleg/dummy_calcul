@@ -1,4 +1,5 @@
-// dummy-calcul-cli.ts
+#!/usr/bin/env node
+// cli.ts
 
 import * as cli from "commander";
 import * as dummyCalcul from "./index";
