@@ -62,6 +62,17 @@ In your html-file:
     <script src="https://unpkg.com/dummy-calcul@1.2.0/dist/dummy-calcul.min.js"></script>
 
 
+## Using the CLI
+
+In a bash-terminal:
+
+    mkdir test
+    cd test
+    npm i dummy-calcul
+    npx dummy-calcul-cli add1000 -n 7
+    npx dummy-calcul-cli mult1000 -n 8
+
+
 ## Publish an update
 
 In a bash-terminal:

@@ -4,6 +4,7 @@
   "description": "tiny library for learning npm package ts-written for use in nodejs or browser",
   "main": "dist/index.js",
   "browser": "dist/dummy-calcul.min.js",
+  "bin": {"dummy-calcul-cli": "dist/cli.js"},
   "files": [
     "dist"
   ],
