@@ -57,7 +57,7 @@ In a html, for the browser
 Two options are possible:
 
 - Use the pre-bundle script from *unpkg.com*
-- install locally with npm and create the bundle with *webpack*
+- install locally with npm and create the bundle with *rollup*
 
 
 Three popular bundle tools:
