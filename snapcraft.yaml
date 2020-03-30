@@ -16,6 +16,8 @@ parts:
   test-dummy-calcul:
     plugin: nodejs
     source: .
+    nodejs-version: "12.13.1"
+    nodejs-package-manager: "npm"
 
 apps:
   test-dummy-calcul:
