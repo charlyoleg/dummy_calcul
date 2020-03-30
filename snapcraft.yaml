@@ -1,0 +1,22 @@
+name: test-dummy-calcul
+version: git
+summary: Command line of npm dummy-calcul.
+description: |
+  Get help:-
+    $ dummy-calcul-cli
+  Add 1000
+    $ dummy-calcul add1000 -n 5
+  Multiply by 1000
+    $ dummy-calcul mult1000 -n 5
+
+confinement: strict
+base: core18
+
+parts:
+  test-dummy-calcul:
+    plugin: nodejs
+    source: .
+
+apps:
+  test-dummy-calcul:
+    command: dummy-calcul-cli
