@@ -5,7 +5,7 @@ export default {
   input: 'src/abc.js',
   output: {
     file: 'dist/bundle.js',
-    format: 'iife'
+    format: 'es'
   },
   plugins: [resolve(), commonjs()]
 };
