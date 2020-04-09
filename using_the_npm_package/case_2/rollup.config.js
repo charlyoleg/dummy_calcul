@@ -5,7 +5,8 @@ export default {
   input: 'src/abc.js',
   output: {
     file: 'dist/bundle.js',
-    format: 'es'
+    format: 'iife',
+    name: 'dumCal'
   },
   plugins: [resolve(), commonjs()]
 };
