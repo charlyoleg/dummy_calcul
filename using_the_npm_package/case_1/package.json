@@ -4,7 +4,7 @@
   "description": "using dummy-calcul in the browser",
   "scripts": {
     "rollup": "rollup -c",
-    "serve": "sensible-browser case_1.html",
+    "serve": "sensible-browser public/case_1.html",
     "clean": "rm -fr dist",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
