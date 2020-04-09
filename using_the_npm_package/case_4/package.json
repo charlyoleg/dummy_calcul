@@ -4,6 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build": "tsc",
+    "run_nodejs": "node dist/abc.js",
+    "clean": "rm -fr dist",
+    "all": "run-s clean build run_nodejs",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -11,6 +15,7 @@
   "license": "ISC",
   "dependencies": {
     "dummy-calcul": "^1.3.0",
+    "npm-run-all": "^4.1.5",
     "typescript": "^3.8.3"
   }
 }
