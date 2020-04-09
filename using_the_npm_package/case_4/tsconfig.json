@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "outDir": "dist",
+    "target": "es5",
+    "lib": ["es2016"],
+    "sourceMap": true
+  },
+  "include": [
+    "src/**/*.ts"
+  ]
+}
