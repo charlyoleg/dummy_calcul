@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<title>browser dummy-calcul test : case_2</title>
+<script type='module'>
+  import {b_add1000, b_mult1000} from '../dist/bundle.js';
+  document.addEventListener("DOMContentLoaded", function() {
+    const result1 = b_add1000(3);
+    const result2 = b_mult1000(4);
+
+    const code = document.createElement("p");
+    code.innerHTML = "result1: " + result1 + "<br>";
+    code.innerHTML += "result2: " + result2 + "<br>";
+    document.body.appendChild(code);
+  });
+</script>
+<p>voila case_2</p>

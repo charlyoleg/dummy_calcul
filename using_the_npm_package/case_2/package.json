@@ -1,0 +1,20 @@
+{
+  "name": "case_2",
+  "version": "1.0.0",
+  "description": "using dummy-calcul in the browser",
+  "scripts": {
+    "rollup": "rollup -c",
+    "serve": "sensible-browser public/case_2.html",
+    "clean": "rm -fr dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "dummy-calcul": "^1.3.0",
+    "rollup": "^2.4.0",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-node-resolve": "^5.2.0"
+  }
+}
